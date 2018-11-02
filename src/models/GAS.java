@@ -14,7 +14,7 @@ import util.Term;
 import util.TermIndexer;
 import util.Topic;
 
-public class WPSTM {
+public class GAS {
 	
 	private ArrayList<Document> docs;
 	private ArrayList<Topic> topics;
@@ -25,7 +25,7 @@ public class WPSTM {
 	private TermIndexer indexer;
 	private int targetIndex;
 	
-	public WPSTM(ArrayList<String> data, String target, int numSenses, int numTopics, double alpha, double beta, double gamma) {
+	public GAS(ArrayList<String> data, String target, int numSenses, int numTopics, double alpha, double beta, double gamma) {
 		this.numSenses = numSenses;
 		this.numTopics = numTopics;
 		this.alpha = alpha;
