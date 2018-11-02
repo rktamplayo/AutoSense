@@ -7,7 +7,7 @@ This code was used in the experiments of the research paper
 
 The `src/models` folder contains one Java file containing the GAS class. To use the model, create an object of GAS using the following line:
 
-`GAS gas = new GAS(data, target, numSenses, numTopics, alpha, beta, gamma)`
+`GAS gas = new GAS(data, target, numSenses, numTopics, alpha, beta, gamma);`
 
 where
 - `data`: is a list of data instances
@@ -20,14 +20,14 @@ where
 
 Then, you would need to run the Gibbs sampler using the following lines of code:
 
-`gas.initialize()`
-`gas.estimate(numIters)`
+`gas.initialize();` <br />
+`gas.estimate(numIters);`
 
 where `numIters` is the number of iterations (set to 2000 in the paper).
 
 To print the results, use the line:
 
-`gas.printSemEval(filename, target)`
+`gas.printSemEval(filename, target);`
 
 To cite the paper/code, please use this BibTex:
 
