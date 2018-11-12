@@ -1,11 +1,11 @@
-# GAS
-Granularity-Agnostic Sense Model for Word Sense Induction
+# AutoSense
+AutoSense Model for Word Sense Induction
 
 This code was used in the experiments of the research paper
 
-**Reinald Kim Amplayo**, Seung-won Hwang, and Min Song. **Granularity-Agnostic Sense Model for Word Sense Induction**. _AAAI_, 2019.
+**Reinald Kim Amplayo**, Seung-won Hwang, and Min Song. **AutoSense Model for Word Sense Induction**. _AAAI_, 2019.
 
-The `src/models` folder contains one Java file containing the GAS class. To use the model, create an object of GAS using the following line:
+The `src/models` folder contains one Java file containing the GAS class. The GAS (Granularity-Agnostic Sense Model) refers to the AutoSense model. To use the model, create an object of GAS using the following line:
 
 `GAS gas = new GAS(data, target, numSenses, numTopics, alpha, beta, gamma);`
 
@@ -37,7 +37,7 @@ To cite the paper/code, please use this BibTex:
 	Booktitle = {AAAI},
 	Location = {Honolulu, HI},
 	Year = {2019},
-	Title = {Granularity-Agnostic Sense Model for Word Sense Induction},
+	Title = {AutoSense Model for Word Sense Induction},
 }
 ```
 
